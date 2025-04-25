@@ -1,0 +1,30 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/PolinaPetrenko/goit-node-cli#readme",
+  "bugs": {
+    "url": "https://github.com/PolinaPetrenko/goit-node-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolinaPetrenko/goit-node-cli.git"
+  },
+  "license": "ISC",
+  "author": "Polina Petrenko <ppetrenko2002@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "nanoid": "^5.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "keywords": []
+}
